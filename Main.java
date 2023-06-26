@@ -18,7 +18,7 @@ public static int getFileSize(File f) {
       Scanner sc = new Scanner(f); 
       while (sc.hasNext()) 
       { 
-        String str = sc.nextLine(); 
+        sc.nextLine(); 
         count++;
       }
       sc.close(); 
